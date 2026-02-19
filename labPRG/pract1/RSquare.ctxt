@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=RSquare
+comment0.text=\r\n\ Drawing\ figures\ of\ type\ "Recursive\ Square".\r\n\ From\ "Introduction\ to\ Programming\ in\ Java",\r\n\ Sedgewick\ &\ Wayne,\ Princeton.\r\n\ @author\ IIP-PRG-DSIC-ETSINF.\ pmarques\r\n\ @version\ Academic\ year\ 2025-26\r\n
+comment1.params=
+comment1.target=RSquare()
+comment1.text=There\ are\ no\ objects\ of\ this\ class.
+comment2.params=gd\ cX\ cY\ s
+comment2.target=void\ drawCentSquare(graph2D.Graph2D,\ double,\ double,\ double)
+comment2.text=\ Draws\ in\ the\ window\ gd\ a\ grey\ filled\ square\ with\r\n\ \ the\ ledge\ highlighted\ in\ blue,\ centred\ at\ (\ cX,\ cY\ )\r\n\ \ and\ side\ length\ equal\ to\ s.\r\n
+comment3.params=
+comment3.target=void\ delay()
+comment3.text=Waits\ 100\ ms\ to\ continue\ the\ execution\ of\ the\ current\ thread.
+comment4.params=gd\ n\ cX\ cY\ s
+comment4.target=void\ rSquareA(graph2D.Graph2D,\ int,\ double,\ double,\ double)
+comment4.text=\ Draws\ in\ the\ window\ gd\ an\ RSquare-A\ figure\r\n\ \ of\ order\ n\ >\=\ 1,\ with\ the\ central\ square\ centered\ at\r\n\ \ (cX,\ cY)\ and\ side\ length\ equal\ to\ s.\r\n
+comment5.params=n
+comment5.target=void\ rSquareA(int)
+comment5.text=\ Draws\ an\ RSquare-A\ figure\ of\ order\ n\ >\=\ 1\r\n\ with\ side\ length\ equal\ to\ 1.0\ and\ centered\ at\ (0,\ 0).\r\n
+comment6.params=gd\ n\ cX\ cY\ s
+comment6.target=void\ rSquareB(graph2D.Graph2D,\ int,\ double,\ double,\ double)
+comment6.text=\ Draws\ in\ the\ window\ gd\ an\ RSquare-B\ figure\r\n\ \ of\ order\ n\ >\=\ 1,\ with\ the\ central\ square\ centered\ at\r\n\ \ (cX,\ cY)\ and\ side\ length\ equal\ to\ $s$.\r\n
+comment7.params=n
+comment7.target=void\ rSquareB(int)
+comment7.text=\ Draws\ an\ RSquare-B\ figure\ of\ order\ n\ >\=\ 1\r\n\ with\ side\ length\ equal\ to\ 1.0\ and\ centered\ at\ (0,\ 0).\r\n
+numComments=8

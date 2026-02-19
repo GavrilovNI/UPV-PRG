@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SimpleRecFig
+comment0.text=\r\n\ The\ class\ <code>SimpleRecFig</code>\ contains\ the\r\n\ basic\ components\ for\ recursively\ drawing\ figures.\r\n\ \r\n\ @author\ PRG-DSIC-ETSINF,\ pmarques\ \r\n\ @version\ Academic\ year\ 2025-26\r\n
+comment1.params=
+comment1.target=SimpleRecFig()
+comment1.text=There\ are\ no\ objects\ of\ this\ class.
+comment2.params=iniOrd
+comment2.target=void\ recFig(int)
+comment2.text=\r\n\ Recursively\ draws\ a\ serie\ of\ squares\ in\ a\ diagonal\ line.\ \r\n\ The\ number\ of\ squares\ is\ given\ by\ the\ parameter\r\n\ <code>iniOrd</code>.\ \r\n\ @param\ iniOrd\ int,\ number\ of\ squares\ to\ be\ drawn.\r\n\ PRECONDITION\:\ iniOrd\ >\=\ 1\r\n
+comment3.params=iniOrd
+comment3.target=void\ iterFig(int)
+comment3.text=\r\n\ Iteratively\ draws\ a\ serie\ of\ squares\ in\ a\ diagonal\ line.\r\n\ The\ number\ of\ squares\ is\ given\ by\ the\ parameter\r\n\ <code>iniOrd</code>.\r\n\ @param\ iniOrd\ int,\ number\ of\ squares\ to\ be\ drawn.\r\n\ PRECONDITION\:\ iniOrd\ >\=\ 1\r\n
+comment4.params=g\ ord\ s\ xSL\ ySL
+comment4.target=void\ recFig(graph2D.Graph2D,\ int,\ double,\ double,\ double)
+comment4.text=\r\n\ Recursively\ draws\ a\ number\ of\ ord\ squares\ in\ a\ diagonal\ line,\ \r\n\ with\ decreasing\ sides.\ The\ largest\ square\ has\ side\ length\ s,\ \r\n\ and\ the\ rest\ of\ the\ squares\ they\ reduce\ their\ side\ length\ by\ half.\ \r\n\ @param\ g\ Graph2D,\ the\ drawing\ canvas,\ an\ object\ of\ the\ class\ Graph2D.\r\n\ @param\ ord\ int,\ number\ of\ squares.\r\n\ @param\ s\ double,\ side\ length\ of\ the\ largest\ square.\r\n\ @param\ xSL\ double,\ abscissa\ of\ the\ upper\ left\ corner\ of\ the\ largest\ square.\r\n\ @param\ ySL\ double,\ ordinate\ of\ the\ upper\ left\ corner\ of\ the\ largest\ square.\r\n\ PRECONDITION\:\ ord\ >\=\ 1\ \r\n
+comment5.params=g\ ord\ s\ xSL\ ySL
+comment5.target=void\ iterFig(graph2D.Graph2D,\ int,\ double,\ double,\ double)
+comment5.text=\r\n\ Iteratively\ draws\ a\ number\ of\ ord\ squares\ in\ a\ diagonal\ line,\ \r\n\ with\ decreasing\ sides.\ The\ largest\ square\ has\ side\ length\ s,\ \r\n\ and\ the\ rest\ of\ the\ squares\ they\ reduce\ their\ side\ length\ by\ half.\r\n\ @param\ g\ Graph2D,\ the\ drawing\ canvas,\ an\ object\ of\ the\ class\ Graph2D.\r\n\ @param\ ord\ int,\ number\ of\ squares.\r\n\ @param\ s\ double,\ side\ length\ of\ the\ largest\ square.\r\n\ @param\ xSL\ double,\ abscissa\ of\ the\ upper\ left\ corner\ of\ the\ largest\ square.\r\n\ @param\ ySL\ double,\ ordinate\ of\ the\ upper\ left\ corner\ of\ the\ largest\ square.\r\n\ PRECONDITION\:\ ord\ >\=\ 1\ \r\n
+comment6.params=
+comment6.target=void\ delay()
+comment6.text=Waits\ 300\ ms\ to\ continue\ the\ execution\ of\ the\ current\ thread.
+numComments=7
