@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TestSortedRegister
+comment0.text=\r\n\ TestSortedRegister\ class.\ Test\ for\ the\ class\ SortedRegister.\r\n\ \r\n\ @author\ PRG\ -\ ETSINF\ -\ UPV\r\n\ @version\ Academic\ year\ 2025/26\r\n
+comment1.params=
+comment1.target=TestSortedRegister()
+comment1.text=No\ objects\ for\ this\ class\ .
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=year\ in\ out
+comment3.target=void\ test1(int,\ java.util.Scanner,\ java.io.PrintWriter)
+comment3.text=\ Method\ that\ tests\ add(Scanner)\ and\ save(PrintWriter)\r\n\ \ from\ SortedRegister.\ It\ processes\ data\ items\ read\ from\ in.\r\n\ \ Processed\ data\ items\ are\ saved\ on\ out.\r\n\ \ When\ any\ error\ is\ found\ on\ input\ data\r\n\ \ process\ terminates\ and\ out\ remains\ empty.\r\n\ \ @param\ year\ year\ for\ data.\r\n\ \ @param\ in\ Scanner\ data\ source.\r\n\ \ @param\ out\ PrintWriter\ processed\ data\ destination.\r\n
+comment4.params=year\ in\ out\ err
+comment4.target=void\ test2(int,\ java.util.Scanner,\ java.io.PrintWriter,\ java.io.PrintWriter)
+comment4.text=\ Method\ that\ tests\ add(Scanner,\ PrintWriter)\ and\ save(PrintWriter)\r\n\ \ from\ SortedRegister.\ It\ processes\ data\ items\ read\ from\ in.\r\n\ \ Processed\ data\ items\ are\ saved\ on\ out.\r\n\ \ When\ any\ error\ is\ found\ on\ input\ data,\ it\ is\ ignored\:\r\n\ \ its\ data\ is\ not\ processed\ and\ err\ records\ the\ number\ of\ line\r\n\ \ and\ the\ error\ found.\r\n\ \ @param\ year\ year\ for\ data.\r\n\ \ @param\ in\ Scanner\ data\ source.\r\n\ \ @param\ out\ PrintWriter\ processed\ data\ destination.\r\n\ \ @param\ err\ PrintWriter\ error\ report\ destination.\r\n
+numComments=5

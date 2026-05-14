@@ -7,8 +7,8 @@ set ylabel "Microseconds"
 set key left
 set grid
 
-#set term pdf colour enhanced solid
-#set output "linearSearch.pdf"
+set term pdf colour enhanced solid
+set output "linearSearch.pdf"
 
 plot "linearSearch.out" using 1:2 title "Best case" with points, \
 	"linearSearch.out" using 1:3 title "Worst case" with points, \
