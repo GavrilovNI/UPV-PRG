@@ -7,6 +7,12 @@ set ylabel "Microseconds"
 set key left
 set grid
 
+#set term jpeg
+#set output "linearSearch.jpeg"
+
+#set term pdfcairo
+#set output "linearSearch.pdf"
+
 set term pdf colour enhanced solid
 set output "linearSearch.pdf"
 
@@ -30,3 +36,7 @@ pause -1 "Press ENTER to continue ... "
 
 print "f(", 10**9, ") = ", f(10**9)
 print "g(", 10**9, ") = ", g(10**9)
+
+
+set term wxt
+set output
